@@ -20,8 +20,10 @@ body {
   
   /* Container with the background image */
   .container {
-    background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
-    min-height: 100vh;
+    background-image: url('imagem/imgFundo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +32,7 @@ body {
   /* Content div for text and button */
   .content {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.627);
     padding: 20px 40px;
     border-radius: 8px;
   }
@@ -43,6 +45,7 @@ body {
   button {
     background-color: #ff1b7b;
     border: none;
+    border-radius: 15px;
     padding: 10px 20px;
     font-size: 1.2em;
     color: white;
