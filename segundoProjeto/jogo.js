@@ -19,6 +19,8 @@ function jogar() {
     alert ("A soma é " + soma)
 
     resultado = soma % 2 === 0 ? "par" : "ímpar";
+    escolhaJogadorTexto = escolhaJogador === 1 ? "par" : "ímpar";
+    escolhaJogadorTexto = escolhaJogador === 2 ? "ímpar" : "par";
 
     if (resultado === escolhaJogadorTexto) {
         alert ("Isso, você ganhou pois a soma dos números escolhidos foi " + resultado)
