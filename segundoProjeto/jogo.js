@@ -27,5 +27,4 @@ function jogar() {
     } else {
         alert ("Você perdeu, pois a soma dos números esolhidos foi " + resultado)
     }
-
 }
